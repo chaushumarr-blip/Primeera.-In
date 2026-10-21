@@ -382,3 +382,34 @@ document.getElementById("contactForm").addEventListener("submit", event => {
 </script>
 </body>
 </html>
+
+<!-- Floating WhatsApp Button -->
+<a
+  href="https://wa.me/918055905561?text=Hello%20Prime%20Era%2C%20I%20want%20to%20know%20about%20your%20digital%20marketing%20services."
+  class="whatsapp-float"
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Chat with Prime Era on WhatsApp"
+>
+  WhatsApp Us
+</a>
+
+<style>
+.whatsapp-float {
+  position: fixed;
+  right: 18px;
+  bottom: 20px;
+  z-index: 9999;
+  background: #25D366;
+  color: #fff;
+  padding: 14px 20px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,.25);
+}
+.whatsapp-float:hover {
+  background: #128C7E;
+}
+</style>
